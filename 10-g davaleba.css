@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.rectangle-background {
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    padding-left: 15vw;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15vw;
+}
+.header-1 {
+    margin-top: 5.5vh;
+}
+.header-2 {
+    margin-top: 6vh;
+}
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:active {
+    background-color: transparent;
+    text-decoration: none;
+  }
+.link-1 {
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.link-2 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 48px;
+}
+.link-3 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 48px;
+}
+.link-4 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+main {
+    display: flex;
+}
+#section-1 {
+    margin-top: 20vh;
+}
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 550px;
+}
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    color: #FAFAFA;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 450px;
+    margin-top: -40px;
+}
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+    background: #B0EADF;
+    border-radius: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #232323;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#section-2 {
+position: relative;
+}
+.img-background {
+    margin-left: 180px;
+    margin-top: 130px;
+    position: relative;
+}
+.img-hand {
+    position: absolute;
+    margin-left: -620px;
+    margin-top: -100px;
+}
+.img-gold-ring {
+    position: absolute;
+    margin-left: -620px;
+    margin-top: -100px;
+}
+.img-silver-ring {
+    position: absolute;
+    margin-left: -620px;
+    margin-top: -100px;
+}
+.img-clothes {
+    position: absolute;
+    margin-left: -610px;
+    margin-top: -90px;
+}
